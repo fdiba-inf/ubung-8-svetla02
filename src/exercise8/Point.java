@@ -40,7 +40,7 @@ public class Point {
     public boolean equals(Point otherPoint) {
         boolean xEqual = Utils.equals(x, otherPoint.x);
         boolean yEqual = Utils.equals(y, otherPoint.y);
-        return false;
+         return xEqual && yEqual;
     }
 
     public String toString() {
